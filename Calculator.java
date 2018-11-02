@@ -16,5 +16,9 @@ public class Calculator {
     public float division(float a, float b) {
         return a/b;
     }
+	
+	public float max(float a, float b){
+		if(a>b)return a;
+	}
 
 }
